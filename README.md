@@ -1,8 +1,9 @@
 # UltraQuaternion
-Increases the precision of quaternions. For use with other plugins that modify the map
-Before
+## Increases the precision of quaternions. For use with other plugins that modify the map
+
+### Before
 ![image](https://github.com/brayden-dowson/UltraQuaternion/assets/88667957/b188245d-54a8-476c-bcf9-57f0a8cc16e7)
-After
+### After
 ![image](https://github.com/brayden-dowson/UltraQuaternion/assets/88667957/06728a0b-3d38-4f02-a812-b755ea80154c)
 ## Install (NW-API Only)
 ### Auto
