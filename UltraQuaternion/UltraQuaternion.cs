@@ -56,10 +56,10 @@ namespace TheRiptide
                         float dist = 0.0f;
                         for (int j = 0; j < 4; j++)
                         {
-                            float d = (1.0f / scale) * (q[j] * scale - Mathf.RoundToInt(q[j] * scale));
+                            float d = q[j] * scale - Mathf.RoundToInt(q[j] * scale);
                             dist += d * d;
                         }
-                        dist = Mathf.Pow(dist, 1.0f / 4.0f);
+                        dist = (1.0f / scale) * Mathf.Pow(dist, 1.0f / 4.0f);
                         if (dist < best_dist)
                         {
                             best_dist = dist;
